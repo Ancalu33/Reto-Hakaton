@@ -6,22 +6,22 @@ h4 {
     font-family: 'Encode Sans', sans-serif;
 }
 
+body{
+    background-color: #f3ecc2;
+}
+
 .myNavbar {
-    background-color: #f2f0eb;
+    background-color: #e8505b;
 }
 
 .myNavbar a {
-    color: #000000 !important;
+    color: #fff !important;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
 }
 
 .myHeader {
-    background-image: url("../img/fondoheader.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+   
 
 }
 
@@ -77,7 +77,7 @@ h4 {
 
 
 .CercappFooter {
-    background-color: #f2f0eb;
+    background-color: #14b1ab;
 }
 
 .Experiencias {
