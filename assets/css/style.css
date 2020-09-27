@@ -8,6 +8,7 @@ h4 {
 
 body{
     background-color: #f3ecc2;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .myNavbar {
@@ -18,11 +19,6 @@ body{
     color: #fff !important;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
-}
-
-.myHeader {
-   
-
 }
 
 .masthead {
@@ -79,129 +75,3 @@ body{
 .CercappFooter {
     background-color: #14b1ab;
 }
-
-.Experiencias {
-    background-color: #91d7f2;
-    padding: 2rem;
-}
-
-.listaAcerca {
-    list-style: none;
-}
-
-.listaAcerca li a {
-    text-decoration: none;
-}
-
-.listaAcerca li a:hover {
-    color: #000000 !important;
-}
-
-.iconSocial {
-    background: transparent !important;
-    border: none;
-    margin: auto;
-    font-size: 2rem;
-}
-
-.iconSocial a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.iconSocial a:hover {
-    transform: scale(0.9);
-}
-
-
-/* CSS Experiencias */
-.myCardEx {
-    background-color: #f2955e;
-}
-
-.myCardEx small {
-    color: #f2f0eb;
-}
-
-.myCardEx a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.myCardEx-body img {
-    height: 50px;
-    width: 50px;
-}
-
-.fotoUsuarioEx {
-    width: 60px;
-    height: 60px;
-    padding: 0px;
-    border-radius: 10px;
-}
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* CSS Populares */
-
-.Populares {
-    background-color: #5196a6;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-}
-
-.myCardPop {
-    background-color: #f25041;
-}
-
-.myCardPop small {
-    color: #f2f0eb;
-}
-
-.myCardPop a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.myCardPop-body img {
-    
-    height: 50px;
-    width: 50px;
-}
-.myCardPop-body {
-    
-    color: white;
-}
-
-.fotoUsuarioPop {
-    width: 60px;
-    height: 60px;
-    padding: 0px;
-    border-radius: 10px;
-}
-
-.clasificacion {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-}
-
-.clasificacion input[type="radio"] {
-    display: none;
-}
-  
-.clasificacion label{      
-    color: grey;
-    font-size: 35px;    
-}
-.clasificacion label:hover,
-  label:hover ~ label {
-    color: orange;
-  }
-
-  .btn-Populares {
-      background-color: #f2f0eb;
-      border-width: 5px;
-  }
