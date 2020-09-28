@@ -82,6 +82,7 @@ body {
 
 .myMainProfile{
     background-color: #14b1ab;
+    height: 235px !important;
 }
 
 .myStats{
@@ -96,5 +97,5 @@ body {
 .myCarousel{
     width: 300px !important;
     height: 150px !important;
-    float: right;
+   
 }
