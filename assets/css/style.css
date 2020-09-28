@@ -3,75 +3,98 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Encode Sans', sans-serif;
+  font-family: "Encode Sans", sans-serif;
 }
 
-body{
-    background-color: #f3ecc2;
-    font-family: 'Open Sans', sans-serif;
+body {
+  background-color: #f3ecc2;
+  font-family: "Open Sans", sans-serif;
 }
 
 .myNavbar {
-    background-color: #e8505b;
+  background-color: #e8505b;
 }
 
 .myNavbar a {
-    color: #fff !important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9rem;
+  color: #fff !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
 }
 
 .masthead {
-    text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 8rem;
-    margin-top: 8rem;
-
+  text-align: center;
+  margin-top: 8rem;
 }
 
 .masthead h1 {
-    font-family: 'Encode Sans', sans-serif;
-    font-weight: bold;
-    color: #fff;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: bold;
+  color: #fff;
 }
 
 .logo {
-    width: 130px;
-    height: 130px;
+  width: 130px;
+  height: 130px;
 }
 
 .myLogin {
-    border-width: 2px;
-    color: #5196a6;
-    border-color: #f25041;
-    font-size: 1.1rem;
-
+  border-width: 2px;
+  color: #5196a6;
+  border-color: #f25041;
+  font-size: 1.1rem;
 }
 
 .myRegister {
-    border: none;
-    color: #5196a6;
-    font-size: 1.1rem;
-
+  border: none;
+  color: #5196a6;
+  font-size: 1.1rem;
 }
 
 .myBtNav span {
-    color: #000000;
+  color: #000000;
 }
 
-
 .btnSearch {
-    background-color: hsl(191, 34%, 48%);
+  background-color: hsl(191, 34%, 48%);
 }
 
 .btnLocate {
-    background-color: #5196a6;
-
+  background-color: #5196a6;
 }
 
 /* CSS Footer */
 
-
 .CercappFooter {
+  background-color: #14b1ab;
+}
+
+.myCover {
+  background-color: #e8505b;
+}
+
+.myFooterCard{
+    background-color: #f9d56e;
+}
+
+.myCircle{
+    border-radius: 50%;
+}
+
+.myMainProfile{
     background-color: #14b1ab;
+}
+
+.myStats{
+    color: #fff;
+}
+
+.myStats p{
+    color: rgb(228, 228, 228) !important;
+    
+}
+
+.myCarousel{
+    width: 300px !important;
+    height: 150px !important;
+    float: right;
 }
