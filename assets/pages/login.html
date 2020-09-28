@@ -13,7 +13,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- CSS personalizado-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- Fontawesome CSS -->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
 
 
     <!-- Cabecera -->
-    <header class="masthead myHeader">
+    <header class="masthead myHeader py-4 my-2">
 
         <nav class="navbar row navbar-expand-lg navbar-light fixed-top myNavbar shadow">
             <div class=" container">
@@ -54,11 +54,12 @@
                                         establecimiento</a>
                                 </li>
                                 <li class="nav-item col-9 my-1 mx-auto align-self-center">
-                                    <a class="myNav-link nav-link" href="/Reto-Hakaton/assets/pages/login.html">Iniciar
-                                        Sesion</a>
+                                    <a class="myNav-link nav-link" href="#">Quienes somos</a>
                                 </li>
                             </ul>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -67,9 +68,32 @@
     </header>
 
     <main class="myMain">
+        <div class="container d-flex flex-column register my-4" style="width: 40%;">
+            <form class="my-4">
+                <h3>Login</h3>
+                <div class="form-group">
+                    <label for="correo">Correo</label>
+                    <input type="email" class="form-control" id="correo" aria-describedby="emailHelp"
+                        placeholder="correo@correo.com">
+                </div>
+                <div class="form-group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" class="form-control" id="contraseña" placeholder="Contraseña">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary" id="login">Enviar</button>
+                    <a class="btn btn-primary" href="./registro.html">
+                        Registrese
+                    </a>
 
+                </div>
+
+            </form>
+
+        </div>
+        <!-- 
         <button class=" btn btn btn-outline-dark my-1 mx-auto myLogin" data-toggle="modal"
-            href="javascript:void(0)">Ingresar</button>
+            href="javascript:void(0)">Ingresar</button> -->
 
     </main>
 
@@ -84,10 +108,8 @@
         </div>
     </footer>
 
-
-
-
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/login.js"></script>
     <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

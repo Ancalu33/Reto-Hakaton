@@ -6,7 +6,7 @@ h4 {
     font-family: 'Encode Sans', sans-serif;
 }
 
-body{
+body {
     background-color: #f3ecc2;
     font-family: 'Open Sans', sans-serif;
 }
@@ -74,4 +74,8 @@ body{
 
 .CercappFooter {
     background-color: #14b1ab;
+}
+
+.register {
+    margin: auto;
 }
